@@ -21,3 +21,10 @@ const func1 = (x)=>{
 
 func1(34);
 func1(66);
+
+function randint(){
+    a = Math.floor(Math.random()*3)
+    return a
+}
+
+console.log(randint())
